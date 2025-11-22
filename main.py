@@ -34,8 +34,8 @@ def main():
     holidays = response.json()["response"]["holidays"]
 
     for holiday in holidays:
-        month = holiday['date']["datetime"]["month"]
-        print(f"Дата: {holiday['date']["datetime"]["day"]} {MONTHS[month-1]}\nНазвание праздника: {holiday["name"]}\nОписание: {holiday["description"]}\n")
+        month = holiday["date"]["datetime"]["month"]
+        print(f"Дата: {holiday["date"]["datetime"]["day"]} {MONTHS[month-1]}\nНазвание праздника: {holiday["name"]}\nОписание: {holiday["description"]}\n")
 
 
 if __name__ == "__main__":
