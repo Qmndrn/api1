@@ -27,7 +27,7 @@ pip install -r requirements.txt
 3. Получение API-ключа
 
 Зарегистрируйтесь на сайте Calendarific, чтобы получить API-ключ:
-[https://calendarific.com/]()
+[https://calendarific.com/](https://calendarific.com/)
 
 4. Создание файла .env
 
