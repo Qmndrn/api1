@@ -14,21 +14,18 @@
  git clone https://github.com/Qmndrn/api1
 ```
 
-Склонируйте проект.
-
-
 Установите зависимости командой:
 
 ```
 pip install -r requirements.txt
 ```
 
-3. Получение API-ключа
+2. Получение API-ключа
 
 Зарегистрируйтесь на сайте Calendarific, чтобы получить API-ключ:
 [https://calendarific.com/](https://calendarific.com/)
 
-4. Создание файла .env
+3. Создание файла .env
 
 В корне проекта создайте файл .env и поместите туда ваш ключ:
 
